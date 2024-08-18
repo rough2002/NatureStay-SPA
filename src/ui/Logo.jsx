@@ -24,7 +24,7 @@ function Logo() {
   return (
     <StyledLogo>
       <Img src={src} alt="Logo" />
-      <LogoText>Bookingo</LogoText>
+      <LogoText>Nature Stay</LogoText>
     </StyledLogo>
   );
 }

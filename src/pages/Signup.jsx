@@ -36,7 +36,10 @@ function SignUp() {
       <Heading as="h4">Create a new account</Heading>
       <SignUpForm />
       <LoginLink>
-        Already have an account? <Link to="/login">Log in</Link>
+        Already have an account?{" "}
+        <Link to="/login" style={{ textDecoration: "underline" }}>
+          Log in
+        </Link>
       </LoginLink>
     </SignUpLayout>
   );

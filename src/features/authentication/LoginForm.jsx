@@ -58,7 +58,10 @@ function LoginForm() {
 
       <FormRowVertical>
         <p>
-          Don’t have an account? <Link to="/signup">Sign up</Link>
+          Don’t have an account?{" "}
+          <Link to="/signup" style={{ textDecoration: "underline" }}>
+            Sign up
+          </Link>
         </p>
       </FormRowVertical>
     </Form>
